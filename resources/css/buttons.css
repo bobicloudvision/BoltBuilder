@@ -1,0 +1,155 @@
+@import 'tailwindcss';
+
+/* Source only button-related files to keep CSS minimal */
+@source '../views/website-ui/buttons.blade.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Base button styles */
+.btn {
+    @apply px-4 py-2 rounded-lg focus:outline-none focus:ring-2 transition-colors;
+}
+
+/* Primary Buttons */
+.btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-2;
+}
+
+.btn-primary-md {
+    @apply bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:ring-blue-500;
+}
+
+.btn-primary-full {
+    @apply bg-blue-600 text-white rounded-full hover:bg-blue-700 focus:ring-blue-500;
+}
+
+/* Secondary Buttons */
+.btn-secondary {
+    @apply bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-2;
+}
+
+.btn-slate {
+    @apply bg-slate-600 text-white hover:bg-slate-700 focus:ring-slate-500;
+}
+
+/* Outline Buttons */
+.btn-outline-blue {
+    @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-50 focus:ring-blue-500;
+}
+
+.btn-outline-gray {
+    @apply border-2 border-gray-600 text-gray-600 hover:bg-gray-50 focus:ring-gray-500;
+}
+
+.btn-outline-green {
+    @apply border-2 border-green-600 text-green-600 hover:bg-green-50 focus:ring-green-500;
+}
+
+/* Ghost Buttons */
+.btn-ghost-blue {
+    @apply text-blue-600 hover:bg-blue-50 focus:ring-blue-500;
+}
+
+.btn-ghost-gray {
+    @apply text-gray-600 hover:bg-gray-100 focus:ring-gray-500;
+}
+
+.btn-ghost-purple {
+    @apply text-purple-600 hover:bg-purple-50 focus:ring-purple-500;
+}
+
+/* Colored Buttons */
+.btn-success {
+    @apply bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+}
+
+.btn-danger {
+    @apply bg-red-600 text-white hover:bg-red-700 focus:ring-red-500;
+}
+
+.btn-warning {
+    @apply bg-yellow-600 text-white hover:bg-yellow-700 focus:ring-yellow-500;
+}
+
+.btn-info {
+    @apply bg-purple-600 text-white hover:bg-purple-700 focus:ring-purple-500;
+}
+
+/* Button Sizes */
+.btn-sm {
+    @apply px-2 py-1 text-sm;
+}
+
+.btn-md {
+    @apply px-4 py-2 text-base;
+}
+
+.btn-lg {
+    @apply px-6 py-3 text-lg;
+}
+
+.btn-xl {
+    @apply px-8 py-4 text-xl;
+}
+
+/* Buttons with Icons */
+.btn-icon {
+    @apply flex items-center gap-2;
+}
+
+/* Disabled Buttons */
+.btn-disabled {
+    @apply bg-gray-400 text-white cursor-not-allowed opacity-50;
+}
+
+.btn-disabled-outline {
+    @apply border-2 border-gray-400 text-gray-400 cursor-not-allowed opacity-50;
+}
+
+/* Button Groups */
+.btn-group-left {
+    @apply px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700;
+}
+
+.btn-group-middle {
+    @apply px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-r border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700;
+}
+
+.btn-group-right {
+    @apply px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700;
+}
+
+/* Gradient Buttons */
+.btn-gradient-blue-purple {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:from-blue-600 hover:to-purple-700 focus:ring-purple-500 transition-all;
+}
+
+.btn-gradient-pink-red {
+    @apply bg-gradient-to-r from-pink-500 to-red-600 text-white hover:from-pink-600 hover:to-red-700 focus:ring-red-500 transition-all;
+}
+
+.btn-gradient-green-blue {
+    @apply bg-gradient-to-r from-green-400 to-blue-500 text-white hover:from-green-500 hover:to-blue-600 focus:ring-blue-500 transition-all;
+}
+
+/* Shadow Buttons */
+.btn-shadow {
+    @apply shadow hover:shadow-lg;
+}
+
+.btn-shadow-md {
+    @apply shadow-md hover:shadow-xl;
+}
+
+.btn-shadow-lg {
+    @apply shadow-lg hover:shadow-2xl;
+}
+
+/* Loading Buttons */
+.btn-loading {
+    @apply opacity-75 cursor-not-allowed flex items-center gap-2;
+}
+

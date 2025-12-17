@@ -5,13 +5,13 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Primary Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+            <button class="btn btn-primary">
                 Primary Button
             </button>
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-primary-md">
                 Rounded Medium
             </button>
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-primary-full">
                 Rounded Full
             </button>
         </div>
@@ -21,10 +21,10 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Secondary Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-colors">
+            <button class="btn btn-secondary">
                 Secondary Button
             </button>
-            <button class="px-4 py-2 bg-slate-600 text-white rounded-lg hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500 transition-colors">
+            <button class="btn btn-slate">
                 Slate Button
             </button>
         </div>
@@ -34,13 +34,13 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Outline Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-outline-blue">
                 Outline Blue
             </button>
-            <button class="px-4 py-2 border-2 border-gray-600 text-gray-600 rounded-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 transition-colors">
+            <button class="btn btn-outline-gray">
                 Outline Gray
             </button>
-            <button class="px-4 py-2 border-2 border-green-600 text-green-600 rounded-lg hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-500 transition-colors">
+            <button class="btn btn-outline-green">
                 Outline Green
             </button>
         </div>
@@ -50,13 +50,13 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Ghost Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 text-blue-600 rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-ghost-blue">
                 Ghost Blue
             </button>
-            <button class="px-4 py-2 text-gray-600 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 transition-colors">
+            <button class="btn btn-ghost-gray">
                 Ghost Gray
             </button>
-            <button class="px-4 py-2 text-purple-600 rounded-lg hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-colors">
+            <button class="btn btn-ghost-purple">
                 Ghost Purple
             </button>
         </div>
@@ -66,16 +66,16 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Colored Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-colors">
+            <button class="btn btn-success">
                 Success
             </button>
-            <button class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors">
+            <button class="btn btn-danger">
                 Danger
             </button>
-            <button class="px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition-colors">
+            <button class="btn btn-warning">
                 Warning
             </button>
-            <button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-colors">
+            <button class="btn btn-info">
                 Info
             </button>
         </div>
@@ -85,16 +85,16 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Button Sizes</h2>
         <div class="flex flex-wrap items-center gap-4">
-            <button class="px-2 py-1 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-primary btn-sm">
                 Small
             </button>
-            <button class="px-4 py-2 text-base bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-primary btn-md">
                 Medium
             </button>
-            <button class="px-6 py-3 text-lg bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-primary btn-lg">
                 Large
             </button>
-            <button class="px-8 py-4 text-xl bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+            <button class="btn btn-primary btn-xl">
                 Extra Large
             </button>
         </div>
@@ -104,19 +104,19 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Buttons with Icons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors flex items-center gap-2">
+            <button class="btn btn-primary btn-icon">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
                 </svg>
                 Add Item
             </button>
-            <button class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors flex items-center gap-2">
+            <button class="btn btn-danger btn-icon">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
                 </svg>
                 Delete
             </button>
-            <button class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-colors flex items-center gap-2">
+            <button class="btn btn-success btn-icon">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
@@ -129,10 +129,10 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Disabled Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button disabled class="px-4 py-2 bg-gray-400 text-white rounded-lg cursor-not-allowed opacity-50">
+            <button disabled class="btn btn-disabled">
                 Disabled Primary
             </button>
-            <button disabled class="px-4 py-2 border-2 border-gray-400 text-gray-400 rounded-lg cursor-not-allowed opacity-50">
+            <button disabled class="btn btn-disabled-outline">
                 Disabled Outline
             </button>
         </div>
@@ -142,13 +142,13 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Button Groups</h2>
         <div class="inline-flex rounded-lg shadow-sm" role="group">
-            <button class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+            <button class="btn-group-left">
                 Left
             </button>
-            <button class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-r border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+            <button class="btn-group-middle">
                 Middle
             </button>
-            <button class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
+            <button class="btn-group-right">
                 Right
             </button>
         </div>
@@ -158,13 +158,13 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Gradient Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:from-blue-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all">
+            <button class="btn btn-gradient-blue-purple">
                 Gradient Blue-Purple
             </button>
-            <button class="px-4 py-2 bg-gradient-to-r from-pink-500 to-red-600 text-white rounded-lg hover:from-pink-600 hover:to-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 transition-all">
+            <button class="btn btn-gradient-pink-red">
                 Gradient Pink-Red
             </button>
-            <button class="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg hover:from-green-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+            <button class="btn btn-gradient-green-blue">
                 Gradient Green-Blue
             </button>
         </div>
@@ -174,13 +174,13 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Shadow Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+            <button class="btn btn-primary btn-shadow">
                 Shadow
             </button>
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:shadow-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+            <button class="btn btn-primary btn-shadow-md">
                 Shadow Medium
             </button>
-            <button class="px-4 py-2 bg-blue-600 text-white rounded-lg shadow-lg hover:shadow-2xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+            <button class="btn btn-primary btn-shadow-lg">
                 Shadow Large
             </button>
         </div>
@@ -190,7 +190,7 @@
     <section class="space-y-4">
         <h2 class="text-2xl font-semibold">Loading Buttons</h2>
         <div class="flex flex-wrap gap-4">
-            <button disabled class="px-4 py-2 bg-blue-600 text-white rounded-lg opacity-75 cursor-not-allowed flex items-center gap-2">
+            <button disabled class="btn btn-primary btn-loading">
                 <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                     <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
