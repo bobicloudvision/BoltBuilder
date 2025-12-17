@@ -1,3 +1,6 @@
 /vendor/doctrine
 /vendor
 /.idea
+/node_modules
+/public/fonts/filament
+/public
